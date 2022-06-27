@@ -1,1 +1,17 @@
-<p>slider works!</p>
+<div class="slideshow-container">
+    <div style="text-align:center">
+        <span class="dot" *ngFor="let slide of slides, let i = index" (click)="showSlide(i)" [ngClass]="slideIndex === i? 'active':''"></span>
+    </div>
+    <div class="mySlides fade" *ngFor="let slide of slides, let i = index" [ngClass]="slideIndex === i? 'active-slide':''">
+        <div class="image"[ngStyle]="{'background-image': 'url(' + slide.image + ')'}">
+        </div>
+        <div class="heading">
+            {{slide.subHeader}}
+        </div>
+    </div>
+<!--    <a class="prev" onclick="plusSlides(-1)">❮</a>-->
+<!--    <a class="next" onclick="plusSlides(1)">❯</a>-->
+
+</div>
+
+

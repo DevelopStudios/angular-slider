@@ -1,0 +1,44 @@
+[
+  {
+    "image": "../../../assets/images/slide-1.jpeg",
+    "headline": "lobortis massa",
+    "subHeader": "test",
+    "test": "Proin ultricies neque sit amet neque aliquet, et porttitor erat mattis. Ut at auctor lorem. Phasellus malesuada vel nisi id eleifend."
+  },
+  {
+    "image": "../../../assets/images/slide-2.jpeg",
+    "headline": "Morbi ac odio",
+    "subHeader": "Lorem ipsum dolor sit amet",
+    "test": "Proin ultricies neque sit amet neque aliquet, et porttitor erat mattis. Ut at auctor lorem. Phasellus malesuada vel nisi id eleifend."
+  },
+  {
+    "image": "../../../assets/images/slide-3.jpeg",
+    "headline": "elementum at tempor",
+    "subHeader": "Lorem ipsum dolor sit amet",
+    "test": "Proin ultricies neque sit amet neque aliquet, et porttitor erat mattis. Ut at auctor lorem. Phasellus malesuada vel nisi id eleifend."
+  },
+  {
+    "image": "../../../assets/images/slide-4.jpeg",
+    "headline": "Pellentesque neque",
+    "subHeader": "Lorem ipsum dolor sit amet",
+    "test": "Proin ultricies neque sit amet neque aliquet, et porttitor erat mattis. Ut at auctor lorem. Phasellus malesuada vel nisi id eleifend."
+  },
+  {
+    "image": "../../../assets/images/slide-5.jpeg",
+    "headline": "Dapibus condimentum",
+    "subHeader": "Lorem ipsum dolor sit amet",
+    "test": "Proin ultricies neque sit amet neque aliquet, et porttitor erat mattis. Ut at auctor lorem. Phasellus malesuada vel nisi id eleifend."
+  },
+  {
+    "image": "../../../assets/images/slide-6.jpeg",
+    "headline": "Mauris eros lorem",
+    "subHeader": "Lorem ipsum dolor sit amet",
+    "test": "Proin ultricies neque sit amet neque aliquet, et porttitor erat mattis. Ut at auctor lorem. Phasellus malesuada vel nisi id eleifend."
+  },
+  {
+    "image": "../../../assets/images/slide-7.jpeg",
+    "headline": "Nullam vulputate",
+    "subHeader": "Lorem ipsum dolor sit amet",
+    "test": "Proin ultricies neque sit amet neque aliquet, et porttitor erat mattis. Ut at auctor lorem. Phasellus malesuada vel nisi id eleifend."
+  }
+]
