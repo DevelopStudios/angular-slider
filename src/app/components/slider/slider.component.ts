@@ -21,4 +21,15 @@ export class SliderComponent implements OnInit {
         this.slideIndex = index;
     }
 
+  onSwipe($event:any) {
+    if($event.direction === 4) {
+      if(this.slideIndex > 0) {
+        this.showSlide(this.slideIndex = this.slideIndex - 1);
+      }
+    } else if($event.direction === 2){
+      if(this.slideIndex < 6) {
+        this.showSlide(this.slideIndex = this.slideIndex + 1);
+      }
+    }
+  }
 }

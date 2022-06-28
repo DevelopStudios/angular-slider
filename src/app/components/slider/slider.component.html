@@ -1,12 +1,19 @@
 <div class="slideshow-container">
-    <div style="text-align:center">
+    <div class="dots-container">
         <span class="dot" *ngFor="let slide of slides, let i = index" (click)="showSlide(i)" [ngClass]="slideIndex === i? 'active':''"></span>
     </div>
-    <div class="mySlides fade" *ngFor="let slide of slides, let i = index" [ngClass]="slideIndex === i? 'active-slide':''">
+    <div class="mySlides fade" *ngFor="let slide of slides, let i = index" [ngClass]="slideIndex === i? 'active-slide':''" (swipe)="onSwipe($event)">
         <div class="image"[ngStyle]="{'background-image': 'url(' + slide.image + ')'}">
         </div>
-        <div class="heading">
-            {{slide.subHeader}}
+        <div class="text">
+            <div class="heading scale-up-hor-left">
+                {{slide.headline}}
+            </div>
+            <div class="sub-heading scale-up-hor-right">
+                {{slide.subHeader}}
+            </div>
+            <div class="paragraph" [innerHTML]="slide.text">
+            </div>
         </div>
     </div>
 <!--    <a class="prev" onclick="plusSlides(-1)">❮</a>-->
