@@ -11,6 +11,8 @@ import { SliderComponent } from './components/slider/slider.component';
 export class MyHammerConfig extends HammerGestureConfig {
   override overrides = <any> {
     swipe: { direction: Hammer.DIRECTION_ALL },
+    'pinch': { enable: false },
+    'rotate': { enable: false }
   };
 }
 
